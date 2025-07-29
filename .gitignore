@@ -1,21 +1,30 @@
-# Ignore dataset files
-creditcard.csv
-creditcard.csv.zip
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.so
+*$py.class
 
-# Ignore environment/config files
+# Environment files
 .env
-*.env
-*.DS_Store
-
-# Ignore virtual environments
-venv/
-ENV/
+.venv/
 env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Python package distribution
+*.egg-info/
+dist/
+build/
+
+# PyCharm
+.idea/
+
+# Streamlit cache and logs (optional)
+.streamlit/
